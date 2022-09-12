@@ -1,0 +1,239 @@
+*{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 40px;
+}
+
+/* //////////////////////////////////////////////// */
+
+.header{
+    background: #101446;
+    height: 70px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header .logo{
+    height: 70px;
+    padding: 10px;
+}
+.header .logo img{
+    width: auto;
+    height: 100%;
+}
+.header .menu{
+    text-align: right;
+    padding: 20px 0  20px 0;
+}
+.header .menu ul{
+    cursor: default;
+}
+.header .menu ul li{
+    display: inline-block;
+}
+.header .menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin: 5px 0 5px 20px;
+    position: relative;
+}
+.header .menu ul li a::after{
+    content: "";
+    height: 2px;
+    width: 0%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .5s;
+    background: rgba(255, 255, 255, 0.808);
+}
+.header .menu ul li a:hover:after{
+    width: 100%;
+}
+/* ///////////////////////////////////////// */
+.hero{
+
+    width: 100%;
+    background-image: url(https://i.ibb.co/JF5j2X2/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: #fff;
+    text-align: center;
+    padding: 240px 0;
+}
+.hero .item{
+    width: 100%;
+}
+.hero .item h2{
+    padding: 10px 0;
+    font-size: 25px;
+}
+.hero .item p{
+    padding: 10px  150px;
+}
+.hero .item a{
+    display: inline-block;
+    color: #fff;
+    background: #337ab7;
+    padding: 6px 15px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+    transition-delay: .2s;
+}
+.hero .item a::after{
+    content: "";
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #101446;
+    z-index: -1;
+    border-radius: 4px;
+    transition: .5s;
+}
+.hero .item a:hover:after{
+    height: 100%;
+    width: 100%;
+    background: #101446;
+
+}
+.hero .item a::before{
+    content: "";
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #101446;
+    z-index: -1;
+    border-radius: 4px;
+    transition: .5s;
+}
+.hero .item a:hover::before{
+    height: 100%;
+    width: 100%;
+    background: #101446;
+
+}
+.hero .item a:hover{
+    box-shadow: 0px  0px  10px rgba(255, 255, 255, 0.521);
+}
+
+/* //////////////////////////\\\\\\\\\\\\\\\\\\ */
+.team{
+    text-align: center;
+    padding: 50px;
+    background: #bac1f3;
+}
+.team h2{
+    padding: 50px;
+}
+.team .item h4{
+    padding: 10px;
+}
+.team .item p{
+    padding: 0px 90px;
+    font-size: 13px;
+}
+.team .item a{
+    display: inline-block;
+    color: #fff;
+    background: #337ab7;
+    padding: 6px 15px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+    transition-delay: .2s;
+}
+.team .item a::after{
+    content: "";
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #101446;
+    z-index: -1;
+    border-radius: 4px;
+    transition: .5s;
+}
+.team .item a:hover:after{
+    height: 100%;
+    width: 100%;
+    background: #101446;
+
+}
+.team .item a::before{
+    content: "";
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #101446;
+    z-index: -1;
+    border-radius: 4px;
+    transition: .5s;
+}
+.team .item a:hover::before{
+    height: 100%;
+    width: 100%;
+    background: #101446;
+
+}
+.team .item a:hover{
+    box-shadow: 0px  0px  10px rgba(255, 255, 255, 0.521);
+}
+/* /////////////////////////////// */
+.about{
+    padding: 50px;
+    background: #c2d4ea;
+}
+.about h2{
+    padding:50px 0 100px 0;
+}
+.about .im{
+    display: inline-block;
+    transform: translate(0px ,-50px);
+}
+.about .im2{
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+.about .im3{
+    display: inline-block;
+    padding: 0px 40px 20px 0;
+
+}
+.about .im2 ul li{
+    padding: 8px;
+ 
+}
+.about .bb{
+    font-size: 20px;
+}
+
+/* /////////////////////////////// */
+.contact{
+    padding: 50px 0 !important;
+}
+.contact h2{
+    padding: 50px 0 ;
+
+}
